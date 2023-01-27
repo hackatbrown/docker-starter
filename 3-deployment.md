@@ -15,7 +15,12 @@ If you are deploying a server of sorts that needs to be accessible through the w
 
 ## Docker Compose
 
-Docker Compose is
+If you are building a larger application, it is likely that you will have multiple docker containers. And then, on top of that, these containers will often need a way to talk to each other. For example, you might have your server running in a Docker container, and then a MongoDB image running in a Docker container that your server will need to communicate with.
+
+Docker Compose is a way to consolidate all the information that is required for multiple containers to talk to each other in one configuration file. Docker Compose is actually run on the command line as a separate command (i.e. `docker-compose ...`) but it is generally installed with Docker, so if you have installed Docker already, you should be able to run this command without having to do anything extra. If not, you can reference the installation guidelines [here](https://docs.docker.com/compose/install/).
+
+To use Docker Compose, you will want to create a `.yaml` file with the configuration for your container orchestration setup.Docker Compose is enough an entirely different tutorial on its own, so we will only introduce it here. You can get started with the official documentation [here](https://docs.docker.com/compose/), but there are also tons of tutorials online you can follow as well1
+
 
 ## Example: Deploying on AWS
 
