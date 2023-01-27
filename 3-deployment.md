@@ -15,6 +15,6 @@ If you are deploying a server of sorts that needs to be accessible through the w
 
 ## Example: Deploying on AWS
 
-One example of an accessible deployment method is through AWS. Fortunately, we have an AWS starter kit for you! More information about the specific AWS resources can be found in the starter kit, but we recommend deployment on something like EC2 or Fargate.
+One example of an accessible deployment method is through AWS. Fortunately, we have [an AWS starter kit for you](https://docs.google.com/document/d/1XzteamYwFEGRTGTG8m8biIxA0nPVrh-IvYqymYOVnQ4/edit)! More information about the specific AWS resources can be found in the starter kit, but we recommend deployment on something like EC2 or Fargate.
 
 The general idea is still the same; you will want to get your application files and Dockerfile on the virtual machine, and then run the Docker image with the right configurations on the machine.
