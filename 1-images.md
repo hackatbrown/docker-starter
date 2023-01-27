@@ -50,5 +50,5 @@ which will run the Postgres image on your machine. Now, on a different terminal,
 
 to list all current running Docker processes. You should see Postgres in the list. We will go over more use cases of this command, but keep it in mind!
 
-Next, let's move on to creating your own Dockerfile to create a container for your own application!
+Next, let's move on to creating your own Dockerfile to create am image for your own application!
 
