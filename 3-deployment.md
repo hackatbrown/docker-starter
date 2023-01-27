@@ -13,6 +13,10 @@ You will want a way to get your application files and Dockerfile on the machine 
 
 If you are deploying a server of sorts that needs to be accessible through the web, you will most likely want to use environment variabes to keep track of things that you want to be configured. This includes things such as the public HTTP port, IP address of your machine etc. While we won't go into it here, this information and more documentation can be found on whatever platform you are deploying on!
 
+## Docker Compose
+
+Docker Compose is
+
 ## Example: Deploying on AWS
 
 One example of an accessible deployment method is through AWS. Fortunately, we have [an AWS starter kit for you](https://docs.google.com/document/d/1XzteamYwFEGRTGTG8m8biIxA0nPVrh-IvYqymYOVnQ4/edit)! More information about the specific AWS resources can be found in the starter kit, but we recommend deployment on something like EC2 or Fargate.
