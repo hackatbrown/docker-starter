@@ -34,7 +34,7 @@ Notice in the top right hand side, there is a command to easily download or pull
 
 `docker pull postgres`
 
-to pull the latest version of the Postgres image to your machine. You can even specify a specific version if you would like as such
+to pull the latest version of the [Postgres image](https://hub.docker.com/_/postgres) to your machine. You can even specify a specific version if you would like as such
 
 `docker pull postgres:<version number>`.
 
