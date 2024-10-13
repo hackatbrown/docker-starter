@@ -4,6 +4,8 @@ One very important use case of Docker is to **run existing packaged dependencies
 
 In the upcoming tutorials, we'll cover how to set up a container for your own application. We'll also show you how you can combine and orchestrate multiple containers including both your application containers and the pre-built dependency containers!
 
+For this part of the tutorial, we'll be working on running Postgres with Docker. Postgres, more formally known as PostgreSQL, is a powerful, open-source object-relational database management system (ORDBMS) that is widely used for storing, retrieving, and managing structured data. It is highly regarded for its robustness, scalability, and ability to support complex queries, large datasets, and advanced data types, making it suitable for a wide range of applications, from small websites to large-scale enterprise systems. 
+
 ## Images and Containers
 
 Docker containers are made up of layers of **images**, which are the files of configuration data necessary to be installed for the container.
@@ -44,7 +46,11 @@ You can then run your image by executing the command
 
 `docker run postgres`
 
-which will run the Postgres image on your machine. Now, on a different terminal, run the following command:
+which will run the Postgres image on your machine. If you get an error in the terminal saying that you must specify POSTGRES_PASSWORD, you can run
+
+`docker run -e POSTGRES_PASSWORD=mypassword -d postgres`
+
+where you would replace mypassword with a password of your choice. Now, on a different terminal, run the following command:
 
 `docker ps`
 
