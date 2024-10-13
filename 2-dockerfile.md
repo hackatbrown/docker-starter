@@ -24,7 +24,7 @@ Often times, we may not want certain dependencies to start with, so we may start
 
 ### Environment variables
 
-Next, we can configure environment variables for our Docker image, which we might want if we are running a Node server. Environment variables store information (typically configuration information such as API keys or settings) that are passed to the application at runtime, and allow you to avoid hardcoding environment-specific values in the source code. 
+Next, we can configure environment variables for our Docker image, which we might want if we are running a Node server. Environment variables store information (typically configuration information such as API keys or settings) that are passed to the application at runtime, and allow you to avoid hardcoding environment-specific values in the source code.
 
 ```
 ENV MONGO_DB_USERNAME=admin \

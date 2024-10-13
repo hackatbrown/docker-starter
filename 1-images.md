@@ -32,7 +32,7 @@ A container will contain its own:
 
 Let's demonstrate an example. Head over to the [official Dockerhub website](https://hub.docker.com/) and search for Postgres. Then, go to the Docker official image for Postgres. Here, you can see information for Postgres, including different versions and configuration details.
 
-Notice in the top right hand side, there is a command to easily download or pull the Docker image to your machine. If you would like, run this command,
+Notice in the top right hand side, there is a command to easily download or pull the Docker image to your machine. If you would like, run this command
 
 `docker pull postgres`
 
